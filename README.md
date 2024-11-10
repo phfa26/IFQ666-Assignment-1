@@ -1,6 +1,3 @@
-Here’s a `README.md` file to provide clear documentation for your project:
-
-```markdown
 # IFQ666 Assignment 1: Web and Mobile App Development Portfolio
 
 ## Purpose of the Application
@@ -96,16 +93,3 @@ The app will be accessible at `http://localhost:3000`.
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
-
-This `README.md` provides:
-
-- **Purpose**: Overview of the project’s objective.
-- **Features**: Summary of main application features.
-- **Dependencies and Installation**: Required libraries and step-by-step instructions.
-- **Architecture**: Overview of the application’s structure.
-- **Contribution Guidelines**: Instructions for contributing to the project.
-- **Issue Reporting**: How to report bugs or suggestions.
-- **Starting the App**: Instructions to start the application in development mode.
-
-This file serves as a guide for both users and contributors, ensuring they understand the project and how to interact with it effectively.
