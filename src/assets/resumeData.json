@@ -1,0 +1,107 @@
+{
+  "intro": {
+    "name": "Paulo Amaral",
+    "title": "Software Engineer",
+    "website": "pauloamaral.com.au",
+    "github": "github.com/phfa26",
+    "linkedin": "linkedin.com/in/phfamaral",
+    "email": "paulo@amaral.com.au",
+    "phone": "0432 442 258",
+    "summary": [
+      "Adaptable Software Engineer with a strong emphasis on security, proficient in a range of technologies including JavaScript, TypeScript, React JS, React Native, and Node JS.",
+      "I bring a security-focused approach to all aspects of software development, ensuring robust and secure solutions.",
+      "Experienced in collaborative teamwork, I excel in both independent and remote work settings and am committed to innovation, mentorship, and delivering impactful solutions."
+    ]
+  },
+  "skills": [
+    "JavaScript", "TypeScript", "React.js", "React Native", "iOS Apps", "Android Apps",
+    "Node.js", "Express", "GraphQL", "HTML/CSS", "SASS/SCSS", "Git", "AWS/GCP",
+    "SQL/NoSQL", "Bootstrap", "WordPress", "Lint", "Jest.js", "Web3", "And more..."
+  ],
+  "experiences": [
+    {
+      "jobTitle": "MarTech Engineer",
+      "company": "Prezzee",
+      "startDate": "Jul 2024",
+      "endDate": "Present",
+      "description": "Prezzee is a global digital gifting platform known for its innovative approach to e-commerce and personalized gift card solutions. As a MarTech Engineer, I collaborate with a global and diverse customer base to elevate their experience with our platform, specializing in MarTech tools such as Segment CDP, HubSpot CRM, and Google Analytics. I own critical SaaS integrations and work closely with the Marketing, Data, and Product teams to drive MarTech innovation and enhance customer engagement.",
+      "technologies": ["TypeScript", "ReactJS", "NextJS", "Segment CDP", "GA4", "HubSpot", "Braze"]
+    },
+    {
+      "jobTitle": "Senior Web Developer",
+      "company": "City of Casey",
+      "startDate": "Dec 2023",
+      "endDate": "Jul 2024",
+      "description": "The City of Casey is a growing municipality in Melbourne's southeast, known for its diverse community and focus on sustainable development. As a Senior Developer, I created digital solutions to improve community engagement and streamline operations, utilizing Drupal and PHP to build scalable web applications. I also guided junior developers and collaborated with stakeholders to translate business requirements into technical solutions.",
+      "technologies": ["Drupal", "PHP", "CSS/SASS", "Cloud", "WCAG", "CI/CD", "Customer Service"]
+    },
+    {
+      "jobTitle": "Software Engineer - React Native / TypeScript",
+      "company": "Nine - Radio",
+      "startDate": "Jul 2022",
+      "endDate": "Aug 2023",
+      "description": "Nine Entertainment is a leading Australian media company with radio and television broadcasting holdings. I developed mobile applications for iOS and Android, using modern JavaScript and TypeScript frameworks to create full-stack applications.",
+      "technologies": ["TypeScript", "React JS", "React Native", "Node JS", "CSS/SASS", "Cloud", "GraphQL"]
+    },
+    {
+      "jobTitle": "Software Developer - Consultant",
+      "company": "Servian",
+      "startDate": "May 2021",
+      "endDate": "Jul 2022",
+      "description": "Servian is a leading Australian software consulting company. I contributed to projects for clients like ING Bank, Westfield, Myer, and Koala, working on front-end solutions, AI/ML features, and customer data platforms.",
+      "technologies": ["React", "GraphQL", "WebSockets", "AWS", "Google Dialogflow", "Segment"]
+    },
+    {
+      "jobTitle": "Software Engineering Intern",
+      "company": "10xEvolve",
+      "startDate": "May 2020",
+      "endDate": "Mar 2021",
+      "description": "As an intern at 10xEvolve, a startup following Pivotal Methodology, I contributed to the development of the company's website, custom email service, and authentication components.",
+      "technologies": ["TypeScript", "React", "SASS", "Node", "Express", "GCP", "TDD"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of IT (Computer Science)",
+      "institution": "Queensland University of Technology (QUT)",
+      "startDate": "Aug 2024",
+      "endDate": "Present",
+      "description": "This program focuses on advanced computer science concepts, including software development, data structures, algorithms, and artificial intelligence, preparing students for complex problem-solving and leadership roles."
+    },
+    {
+      "degree": "Graduate Certificate in Cyber Security",
+      "institution": "UNSW Sydney",
+      "startDate": "Jul 2023",
+      "endDate": "Jun 2024",
+      "description": "This course provides a comprehensive introduction to security engineering principles and practices for secure systems."
+    },
+    {
+      "degree": "Diploma of IT",
+      "institution": "Academy of Information Technology (AIT)",
+      "startDate": "Jul 2020",
+      "endDate": "Jul 2021",
+      "description": "Completed foundational courses in web development, programming, database systems, and software engineering, achieving six High Distinctions and two Distinctions."
+    },
+    {
+      "degree": "Software Engineering Immersive",
+      "institution": "General Assembly",
+      "startDate": "Aug 2019",
+      "endDate": "Feb 2020",
+      "description": "Intensive bootcamp focused on acquiring web development and problem-solving skills."
+    }
+  ],
+  "certifications": [
+    "Scrum Fundamentals",
+    "Scrum Master",
+    "ISC2 CC – Certified in Cybersecurity"
+  ],
+  "personalSkills": [
+    "Motivated and hands-on",
+    "Creative",
+    "Problem solver",
+    "Growth mindset",
+    "Security-focused",
+    "Comprehensive understanding of cybersecurity principles",
+    "Mentorship skills, actively supporting professional development of junior colleagues"
+  ]
+}
