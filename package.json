@@ -1,6 +1,6 @@
 {
   "name": "ifq666-assignment-1",
-  "license": "MIT"
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
