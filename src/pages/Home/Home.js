@@ -5,6 +5,13 @@ import Page from '../../components/Page/Page';
 import { StyledHero, StyledProfileImage, StyledTitleWrapper } from './Home.styles';
 
 const Home = () => {
+
+  const Paragraph = ({ children }) => (
+  <Typography variant="body1" sx={{ marginBottom: 2 }}>
+    {children}
+  </Typography>
+  );
+  
   return (
     <Page title='Home' pagename='home'>
       <StyledHero>
@@ -16,15 +23,21 @@ const Home = () => {
             Welcome to My Portfolio
           </Typography>
         </StyledTitleWrapper>
-        <Typography variant="body1" paragraph>
-          Hello, my name is Paulo Amaral, and this is my portfolio site for the IFQ666 Web and Mobile App Development course. This is Assignment 1: Web programming assignment.
-        </Typography>
-        <Typography variant="body1" paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-        </Typography>
-        <Typography variant="body1" paragraph>
-          Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        </Typography>
+        <Paragraph>
+          Hello, my name is Paulo Amaral, and welcome to my portfolio site created for the IFQ666 Web and Mobile App Development course. This project, Assignment 1: Web Programming, showcases my skills in web development, mobile app design, and my journey through this course as I build practical, real-world applications.
+        </Paragraph>
+        
+        <Paragraph>
+          I’m a passionate software developer with a strong focus on creating seamless, user-centered digital experiences. I enjoy working with modern web technologies, including React, JavaScript, and responsive design techniques that ensure every interface feels intuitive and polished, regardless of the platform.
+        </Paragraph>
+        
+        <Paragraph>
+          Through my work, I aim to bring together creativity and technical skill, building applications that not only solve problems but also deliver value and enhance the user experience. I’m continuously driven to learn, innovate, and refine my craft, making each project an opportunity for growth and new insights.
+        </Paragraph>
+        
+        <Paragraph>
+          Thank you for visiting, and I hope this portfolio provides a clear view of my skills, dedication, and the projects I’ve brought to life.
+        </Paragraph>
       </Box>
     </Page>
   );

@@ -1,6 +1,9 @@
 import { Typography } from '@mui/material';
 import React from 'react';
-import { default as codingImage, default as dogImage, default as hikingImage } from '../../assets/profile-image.png';
+import codingImage from '../../assets/coding.jpg';
+import dogImage from '../../assets/dog.jpg';
+import hikingImage from '../../assets/hiking.jpg';
+
 import ImageTextSection from '../../components/ImageTextSection/ImageTextSection';
 import Page from '../../components/Page/Page';
 
@@ -9,8 +12,8 @@ const sections = [
     imageSrc: hikingImage,
     imageAlt: 'Hiking',
     text: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.',
-      'Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.',
+      'Hiking allows me to disconnect from technology and reconnect with nature. I love the tranquility and focus that comes from exploring new trails and reaching challenging peaks.',
+      'The physical endurance needed for long hikes mirrors the persistence I apply to problem-solving in my work. Just like climbing a mountain, coding requires taking one step at a time to reach the summit.',
     ],
     position: 'left',
   },
@@ -18,9 +21,9 @@ const sections = [
     imageSrc: dogImage,
     imageAlt: 'Playing with my dog',
     text: [
-      'Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam.',
-      'In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.',
+      'Spending time with my dog reminds me to appreciate life’s simple joys. Whether we’re going for a walk or playing fetch, I’m always recharged and inspired afterward.',
+      'Having a pet has taught me patience and empathy, which are qualities I strive to bring into my work. Just like caring for a dog, nurturing a project to completion requires dedication and understanding.',
+      'My dog is also a great reminder of the importance of taking breaks. In a fast-paced industry, regular breaks help maintain productivity and keep my mind sharp.',
     ],
     position: 'right',
   },
@@ -28,11 +31,14 @@ const sections = [
     imageSrc: codingImage,
     imageAlt: 'Coding',
     text: [
-      'Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum.',
+      'Coding is my creative outlet and my way of making a tangible impact. I enjoy transforming complex problems into elegant solutions through code.',
+      'The challenges of programming inspire me to keep learning and experimenting. I believe in writing clean, efficient code that not only works but also anticipates future requirements.',
+      'For me, coding is more than a job; it’s a passion. I love that every line of code is an opportunity to make something meaningful and useful for others.',
     ],
     position: 'center',
   },
 ];
+
 
 const About = () => {
   return (
