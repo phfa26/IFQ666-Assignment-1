@@ -24,7 +24,6 @@ const App = () => {
       <MuiThemeProvider theme={muiTheme}>
         <CssBaseline />
         <Router>
-          {/* Navbar and main content will stack naturally */}
           <Box>
             <Navbar isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />
             <Box component="main">
